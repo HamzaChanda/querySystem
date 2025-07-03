@@ -1,0 +1,100 @@
+[
+  {
+    "level": "error",
+    "message": "Failed to connect to database.",
+    "resourceId": "server-1234",
+    "timestamp": "2023-09-15T08:00:00Z",
+    "traceId": "abc-xyz-123",
+    "spanId": "span-456",
+    "commit": "5e5342f",
+    "metadata": {
+      "parentResourceId": "server-5678"
+    }
+  },
+  {
+    "level": "info",
+    "message": "User login successful.",
+    "resourceId": "web-frontend-1",
+    "timestamp": "2023-09-15T09:15:00Z",
+    "traceId": "def-uvw-456",
+    "spanId": "span-789",
+    "commit": "7a8b9c0",
+    "metadata": {
+      "userId": "user-001"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Disk space running low.",
+    "resourceId": "server-5678",
+    "timestamp": "2023-09-15T10:30:00Z",
+    "traceId": "ghi-jkl-789",
+    "spanId": "span-101",
+    "commit": "1a2b3c4",
+    "metadata": {
+      "disk": "/dev/sda1",
+      "freeGB": 2
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Cache miss for key: session-abc.",
+    "resourceId": "cache-01",
+    "timestamp": "2023-09-15T11:45:00Z",
+    "traceId": "mno-pqr-012",
+    "spanId": "span-202",
+    "commit": "9d8e7f6",
+    "metadata": {
+      "cacheKey": "session-abc"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Failed to connect to database.",
+    "resourceId": "server-1234",
+    "timestamp": "2023-09-15T08:00:00Z",
+    "traceId": "abc-xyz-123",
+    "spanId": "span-456",
+    "commit": "5e5342f",
+    "metadata": {
+      "parentResourceId": "server-5678"
+    }
+  },
+  {
+    "level": "info",
+    "message": "User login successful.",
+    "resourceId": "web-frontend-1",
+    "timestamp": "2023-09-15T09:15:00Z",
+    "traceId": "def-uvw-456",
+    "spanId": "span-789",
+    "commit": "7a8b9c0",
+    "metadata": {
+      "userId": "user-001"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Disk space running low.",
+    "resourceId": "server-5678",
+    "timestamp": "2023-09-15T10:30:00Z",
+    "traceId": "ghi-jkl-789",
+    "spanId": "span-101",
+    "commit": "1a2b3c4",
+    "metadata": {
+      "disk": "/dev/sda1",
+      "freeGB": 2
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Cache miss for key: session-abc.",
+    "resourceId": "cache-01",
+    "timestamp": "2023-09-15T11:45:00Z",
+    "traceId": "mno-pqr-012",
+    "spanId": "span-202",
+    "commit": "9d8e7f6",
+    "metadata": {
+      "cacheKey": "session-abc"
+    }
+  }
+]
