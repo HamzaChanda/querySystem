@@ -7,6 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 const LOGS_FILE = path.join(__dirname, 'logs.json');
 
+
 app.use(cors());
 app.use(express.json());
 
@@ -105,7 +106,10 @@ app.get('/logs', (req, res) => {
     res.status(500).json({ message: 'Failed to retrieve logs.' });
   }
 });
-
+const publicPath = path.join(__dirname, 'public');
+app.get('*', (req, res) => {
+  res.sendFile(path.join(publicPath, 'index.html'));
+});app.use(express.static(publicPath));
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 }); 
